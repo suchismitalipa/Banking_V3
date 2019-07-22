@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 48.866 sec <<< FAILURE!
+Add a customer(Customer)  Time elapsed: 22.619 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Your store. Login]> but was:<[admin-demo.nopcommerce.com]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at Step_Defination.Step.user_can_view_the_dashboard(Step.java:118)
+	at ?.User can view the dashboard(file:Features/Customer.feature:8)
+
+Search Customer by EmailID(Customer)  Time elapsed: 25.334 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[Your store. Login]> but was:<[admin-demo.nopcommerce.com]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at Step_Defination.Step.user_can_view_the_dashboard(Step.java:118)
+	at ?.User can view the dashboard(file:Features/Customer.feature:8)
+
